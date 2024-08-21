@@ -1,0 +1,15 @@
+[tool.poetry]
+name = "asgi-framework"
+version = "0.1.0"
+description = ""
+authors = ["Shiv <shiv.7.shan@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.12"
+uvicorn = "^0.30.5"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
